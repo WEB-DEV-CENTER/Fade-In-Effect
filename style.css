@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(bg.jpg);
+  background-size: cover;
+  font-family: Poppins;
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 12px 27px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.animation {
+  animation-name: fade;
+  animation-duration: 2.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+}
+
+@keyframes fade {
+  from {
+    margin-left: 120px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
